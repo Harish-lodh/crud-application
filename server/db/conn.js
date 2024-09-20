@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-const DB = process.env.DATABASE;
+const DB = "mongodb+srv://harish:harish%4055@cluster0.e578d.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 // Function to connect to MongoDB
 const connectDB = async () => {
     try {
