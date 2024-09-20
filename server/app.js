@@ -7,7 +7,7 @@ const users = require("./models/userSchema");
 const cors = require("cors");
 const router = require("./routes/router");
 
-const port = process.env.PORT ||8000;
+const port =8000;
 
 app.use(cors());
 app.use(express.json());
